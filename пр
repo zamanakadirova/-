@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Обо мне</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding-top: 30px;
+            min-height: 70px;
+            border-bottom: #77aaff 3px solid;
+        }
+        header a {
+            color: #fff;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-size: 16px;
+        }
+        header ul {
+            padding: 0;
+            list-style: none;
+        }
+        header li {
+            display: inline;
+            padding: 0 20px 0 20px;
+        }
+        header #branding {
+            float: left;
+        }
+        header #branding h1 {
+            margin: 0;
+        }
+        header nav {
+            float: right;
+            margin-top: 10px;
+        }
+        .showcase {
+            min-height: 400px;
+            background: url('your-image.jpg') no-repeat 0 -400px;
+            text-align: center;
+            color: #fff;
+        }
+        .showcase h1 {
+            margin-top: 100px;
+            font-size: 55px;
+            margin-bottom: 10px;
+        }
+        .showcase p {
+            font-size: 20px;
+        }
+        .content {
+            padding: 30px 20px;
+            text-align: center;
+        }
+        .content h2 {
+            margin-bottom: 20px;
+        }
+        .content p {
+            font-size: 18px;
+            line-height: 1.6em;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div id="branding">
+                <h1>Моё имя</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#about">Обо мне</a></li>
+                    <li><a href="#skills">Навыки</a></li>
+                    <li><a href="#contact">Контакты</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="showcase">
+        <div class="container">
+            <h1>Добро пожаловать на мой сайт</h1>
+            <p>Здесь вы можете узнать больше обо мне и моей работе.</p>
+        </div>
+    </section>
+
+    <section class="content" id="about">
+        <div class="container">
+            <h2>Обо мне</h2>
+            <p>Я разроботчик программного обеспечени с небольшим опытом работы в создании современных сайтов и приложений. Мне нравится работать над интересными проектами и улучшать свои навыки в программировании.</p>
+        </div>
+    </section>
+
+    <section class="content" id="skills">
+        <div class="container">
+            <h2>Мои навыки</h2>
+            <p>HTML, CSS, Python</p>
+        </div>
+    </section>
+
+    <section class="content" id="contact">
+        <div class="container">
+            <h2>Контакты</h2>
+            <p>Электронная почта: zamanakadirova7@gmail.com</p>
+        </div>
+    </section>
+</body>
+</html>
